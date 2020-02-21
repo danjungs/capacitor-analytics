@@ -5,7 +5,7 @@ target 'Plugin' do
   use_frameworks!
   pod 'Firebase/Core'
   pod 'Firebase/Analytics'
-  pod 'GoogleTagManager', '~> 6.0'
+  pod 'GoogleTagManager'
   pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
 end
 
@@ -13,6 +13,6 @@ target 'PluginTests' do
   use_frameworks!
   pod 'Firebase/Core'
   pod 'Firebase/Analytics'
-  pod 'GoogleTagManager', '~> 6.0'
+  pod 'GoogleTagManager'
   pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
 end
