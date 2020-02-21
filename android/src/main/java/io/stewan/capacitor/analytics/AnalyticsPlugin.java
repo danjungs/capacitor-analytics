@@ -12,6 +12,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.cordova.MockCordovaWebViewImpl;
 import com.google.firebase.analytics.FirebaseAnalytics;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.Iterator;
